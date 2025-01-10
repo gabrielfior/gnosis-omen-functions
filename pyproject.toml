@@ -6,9 +6,11 @@ authors = ["Richard Blythman <richardblythman@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.10,<=3.13"
+python = ">=3.10,<3.13"
 naptha-sdk = {git = "https://github.com/NapthaAI/naptha-sdk.git"}
 python-dotenv = "^1.0.1"
+#prediction-market-agent-tooling = "^0.57.11" - Fix me when subgrounds dependency solved.
+web3 = "^6.15.1"
 
 [build-system]
 requires = ["poetry-core"]
