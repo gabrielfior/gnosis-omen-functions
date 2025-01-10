@@ -4,6 +4,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+module_template/PRIVATE_KEY.txt
+
 # C extensions
 *.so
 
